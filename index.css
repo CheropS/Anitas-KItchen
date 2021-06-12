@@ -38,3 +38,7 @@
 .fastfood {
     display: flex;
 }
+.drinks {
+    display: flex;
+    float: left;
+}
