@@ -10,6 +10,31 @@
     justify-content: space-around;
 }
 .happyhour {
-    background-color: ;
+    background-color: grey;
 
+}
+.partytime {
+    background-color: #F15A29;
+}
+.breakfast {
+    background-image: url("assets/foodtop/breakfast.jpg");
+    background-size: cover;
+    width: 25%;
+    
+}
+.lunch {
+    background-image: url("assets/foodtop/lunch.jpg");
+    background-size: cover;
+    width: 25%;
+}
+.dinner {
+    background-image: url("assets/foodtop/dinner.jpg");
+    background-size: cover;
+    width: 25%;
+}
+.Offers {
+    width: 25%;
+}
+.fastfood {
+    display: flex;
 }
