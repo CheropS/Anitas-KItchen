@@ -11,48 +11,85 @@
 }
 .happyhour {
     background-color: grey;
+    height: 100px;
+    text-align: center;
 
 }
 .partytime {
     background-color: #F15A29;
+    height: 100px;
+    text-align: center;
 }
 .breakfast {
     background-image: url("assets/foodtop/breakfast.jpg");
     background-size: cover;
     width: 25%;
     text-align: center;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    
     
 }
 .lunch {
     background-image: url("assets/foodtop/lunch.jpg");
+    height: 125px;
     background-size: cover;
     width: 25%;
     text-align: center;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    font-size: 60px;
+    padding-left: 60px;
+    font-style: italic;
 }
 .dinner {
     background-image: url("assets/foodtop/dinner.jpg");
     background-size: cover;
     width: 25%;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    padding-left: 60px;
+    font-style: italic;
 }
 .Offers {
     width: 25%;
 }
+.category {
+    align-items: center;
+    padding: 30px;
+}
 .fastfood {
     display: flex;
 }
+.images {
+    margin-left: 250px;
+    }
 .drinks {
     display: flex;
-    flex-direction: column-reverse;
+    width: 70%;
+    margin-left: 15%;
+}
+.words {
+    
 }
 .pombe {
-
+display: flex;
 }
 .review {
     display: flex;
     justify-content: space-around;
 }
+.reviews {
+    align-items: center;
+}
+.subscribe {
+    background-image: url("assets/background/subscribe.jpg");
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    }
 .footer {
-    position: fixed;
     left: 0%;
     bottom: 0%;
     background-color: #F15A29;
