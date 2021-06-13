@@ -20,12 +20,14 @@
     background-image: url("assets/foodtop/breakfast.jpg");
     background-size: cover;
     width: 25%;
+    text-align: center;
     
 }
 .lunch {
     background-image: url("assets/foodtop/lunch.jpg");
     background-size: cover;
     width: 25%;
+    text-align: center;
 }
 .dinner {
     background-image: url("assets/foodtop/dinner.jpg");
@@ -40,5 +42,21 @@
 }
 .drinks {
     display: flex;
-    float: left;
+    flex-direction: column-reverse;
+}
+.pombe {
+
+}
+.review {
+    display: flex;
+    justify-content: space-around;
+}
+.footer {
+    position: fixed;
+    left: 0%;
+    bottom: 0%;
+    background-color: #F15A29;
+    text-align: center;
+
+
 }
