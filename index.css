@@ -104,6 +104,11 @@ box-shadow: 3px 3px 3px 3px grey;
 .divider {
     width: 70%;
     margin-left: 25%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-inline-end: 20px;
+    background-image: url("assets/background/foodsBg.jpg");
+    text-align: center;
 }
 .review {
     display: flex;
