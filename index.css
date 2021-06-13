@@ -109,21 +109,28 @@ box-shadow: 3px 3px 3px 3px grey;
     background-image: url("assets/background/foodsBg.jpg");
     margin-bottom: 20px;
 }
+#colorf {
+    color: grey;
+    box-shadow: grey;
+}
 .gallerycontents {
     background-color: white;
     display: flex;
     justify-content: space-around;
+    color: #F15A29;
 }
 .gallery{
     background-color: white;
     display: flex;
     justify-content: space-around;
+    padding: 10px;
     
 }
 .gallerynames {
     display: flex;
     background-color: white;
     justify-content: space-around;
+    color: #F15A29;
 }
 .review {
     display: flex;
@@ -131,8 +138,8 @@ box-shadow: 3px 3px 3px 3px grey;
     width: 60%;
     margin-left: 20%;
     box-shadow: 3px 3px 3px 3px grey;
-    padding-bottom: 30px;
     margin-bottom: 10px;
+    font-size: 15px;
 }
 .reviews {
     align-items: center;
