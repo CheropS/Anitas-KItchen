@@ -101,6 +101,10 @@ display: flex;
 box-shadow: 3px 3px 3px 3px grey;
 
 }
+.divider {
+    width: 70%;
+    margin-left: 25%;
+}
 .review {
     display: flex;
     justify-content: space-around;
