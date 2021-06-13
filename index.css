@@ -104,8 +104,10 @@ box-shadow: 3px 3px 3px 3px grey;
 .review {
     display: flex;
     justify-content: space-around;
-    width: 70%;
-    margin-left: 17%;
+    width: 60%;
+    margin-left: 20%;
+    box-shadow: 3px 3px 3px 3px grey;
+    padding-bottom: 30px;
 }
 .reviews {
     align-items: center;
@@ -113,12 +115,11 @@ box-shadow: 3px 3px 3px 3px grey;
 .subscribe {
     background-image: url("assets/background/subscribe.jpg");
     text-align: center;
-    padding-top: 20px;
+    padding-top: 40px;
     padding-bottom: 20px;
     }
 .footer {
-    left: 0%;
-    bottom: 0%;
+    padding-top: 50px;
     background-color: #F15A29;
     text-align: center;
 }
