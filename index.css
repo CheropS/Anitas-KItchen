@@ -11,14 +11,24 @@
 }
 .happyhour {
     background-color: grey;
-    height: 100px;
+    height: 47px;
     text-align: center;
+    padding-bottom: 30px;
+    font-size: 40px;
+    font-style: italic;
+    color: white;
 
 }
 .partytime {
     background-color: #F15A29;
-    height: 100px;
+    height: 47px;
     text-align: center;
+    padding-left: 60px;
+
+    padding-bottom: 30px;
+    font-size: 40px;
+    font-style: italic;
+    color: white;
 }
 .breakfast {
     background-image: url("assets/foodtop/breakfast.jpg");
@@ -73,17 +83,19 @@
 }
 .images {
     margin-left: 250px;
+    box-shadow: white;
     }
 .drinks {
     display: flex;
     width: 70%;
-    margin-left: 15%;
+    margin-left: 17%;
 }
 .words {
-    
+    ; 
 }
 .pombe {
 display: flex;
+
 }
 .review {
     display: flex;
