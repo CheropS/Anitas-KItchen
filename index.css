@@ -22,11 +22,16 @@
 }
 .breakfast {
     background-image: url("assets/foodtop/breakfast.jpg");
+    height: 125px;
     background-size: cover;
     width: 25%;
     text-align: center;
     padding-top: 80px;
     padding-bottom: 30px;
+    font-size: 60px;
+    padding-left: 60px;
+    font-style: italic;
+    color: white;
     
     
 }
@@ -41,16 +46,20 @@
     font-size: 60px;
     padding-left: 60px;
     font-style: italic;
+    color: white;
 }
 .dinner {
     background-image: url("assets/foodtop/dinner.jpg");
+    height: 125px;
     background-size: cover;
     width: 25%;
     text-align: center;
     padding-top: 80px;
     padding-bottom: 30px;
+    font-size: 60px;
     padding-left: 60px;
     font-style: italic;
+    color: white;
 }
 .Offers {
     width: 25%;
