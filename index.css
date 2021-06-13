@@ -83,7 +83,10 @@
 }
 .images {
     margin-left: 250px;
-    box-shadow: white;
+    box-shadow: 3px 3px 3px 3px grey;
+    }
+    .text {
+        padding-left: 50px;
     }
 .drinks {
     display: flex;
@@ -91,15 +94,18 @@
     margin-left: 17%;
 }
 .words {
-    ; 
+    padding-right: 80px;
 }
 .pombe {
 display: flex;
+box-shadow: 3px 3px 3px 3px grey;
 
 }
 .review {
     display: flex;
     justify-content: space-around;
+    width: 70%;
+    margin-left: 17%;
 }
 .reviews {
     align-items: center;
@@ -115,6 +121,15 @@ display: flex;
     bottom: 0%;
     background-color: #F15A29;
     text-align: center;
-
-
+}
+#color {
+    color: #F15A29;
+   border-style: solid black;
+    height: 10%;
+    fill: white;
+}
+#code {
+    color: #F15A29;
+    border-style: solid black;
+    height: 10%;
 }
