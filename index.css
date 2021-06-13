@@ -5,6 +5,13 @@
     padding: 50px;
     background-repeat: no-repeat;
 }
+span {
+    margin-left: 2%;
+    color: white;
+    float: left;
+    size: 60px;
+    padding-top: 10px;
+}
 .menu {
     display: flex;
     justify-content: space-around;
@@ -57,6 +64,7 @@
     padding-left: 60px;
     font-style: italic;
     color: white;
+    opacity: 0.7;
 }
 .dinner {
     background-image: url("assets/foodtop/dinner.jpg");
@@ -124,7 +132,6 @@ box-shadow: 3px 3px 3px 3px grey;
     display: flex;
     justify-content: space-around;
     padding: 10px;
-    
 }
 .gallerynames {
     display: flex;
@@ -143,6 +150,10 @@ box-shadow: 3px 3px 3px 3px grey;
 }
 .reviews {
     align-items: center;
+}
+#aboutm {
+    display: flex;
+    justify-content: space-between;
 }
 .subscribe {
     background-image: url("assets/background/subscribe.jpg");
