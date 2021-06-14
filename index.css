@@ -1,3 +1,6 @@
+body{
+    width: 100%;
+}
 .header {
     background-image: url("assets/background/landing.jpg");
     background-size: cover;
@@ -24,7 +27,20 @@ span {
     font-size: 40px;
     font-style: italic;
     color: white;
+    
 
+}
+.rmain{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin-left: 15%;
+    border: 5px white;
+    box-shadow: 5px 5px 5px 5px grey;
+    margin-bottom: 20px;
+}
+.abtm{
+    width: 50%;
 }
 .partytime {
     background-color: #F15A29;
