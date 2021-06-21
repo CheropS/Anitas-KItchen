@@ -204,11 +204,11 @@ box-shadow: 3px 3px 3px 3px grey;
 }
 .footerlogo {
     flex: auto;
-    flex-direction:
+    flex-direction: column-reverse
 }
 #color {
     color: #F15A29;
-   border-style: solid black;
+   border-style: solid #f15a29);
     height: 10%;
     fill: white;
 }
