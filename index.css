@@ -43,10 +43,21 @@ span {
     margin-left: 15%;
     border: 5px white;
     box-shadow: 5px 5px 5px 5px grey;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    }
+.crev {
+    text-align: center;
+}
+#customer1 {
+    color: #F15A29;
 }
 .abtm{
     width: 50%;
+    text-align: center;
+}
+#aboutme{
+color: #F15A29;
 }
 .partytime {
     background-color: #F15A29;
@@ -107,6 +118,8 @@ span {
 }
 .fastfood {
     display: flex;
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
 .images {
     margin-left: 250px;
@@ -119,6 +132,8 @@ span {
     display: flex;
     width: 70%;
     margin-left: 17%;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 .words {
     padding-right: 80px;
@@ -134,7 +149,7 @@ box-shadow: 3px 3px 3px 3px grey;
     padding-top: 30px;
     padding-bottom: 30px;
     background-image: url("assets/background/foodsBg.jpg");
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 #colorf {
     color: grey;
@@ -179,15 +194,21 @@ box-shadow: 3px 3px 3px 3px grey;
     text-align: center;
     padding-top: 40px;
     padding-bottom: 20px;
+    color: white;
     }
 .footer {
     padding-top: 50px;
     background-color: #F15A29;
     text-align: center;
+    color: white;
+}
+.footerlogo {
+    flex: auto;
+    flex-direction: column-reverse
 }
 #color {
     color: #F15A29;
-   border-style: solid black;
+   border-style: solid #f15a29);
     height: 10%;
     fill: white;
 }
@@ -200,6 +221,7 @@ box-shadow: 3px 3px 3px 3px grey;
     display: flex;
     width: 100%;
     margin-left: 45%;
+    padding-right: 30px;
 }
 .twitter {
     padding-top: 10px;
