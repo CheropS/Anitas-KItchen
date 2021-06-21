@@ -8,6 +8,9 @@ body{
     padding: 50px;
     background-repeat: no-repeat;
 }
+.para {
+    text-align: center;
+}
 span {
     margin-left: 2%;
     color: white;
@@ -19,17 +22,16 @@ span {
     display: flex;
     justify-content: space-around;
 }
+
 .happyhour {
     background-color: grey;
-    height: 47px;
+    height: 50%;
     text-align: center;
-    padding-bottom: 30px;
     font-size: 40px;
     font-style: italic;
     color: white;
-    
-
 }
+
 .rmain{
     display: flex;
     justify-content: space-around;
@@ -44,11 +46,8 @@ span {
 }
 .partytime {
     background-color: #F15A29;
-    height: 47px;
+    height: 50%;
     text-align: center;
-    padding-left: 60px;
-
-    padding-bottom: 30px;
     font-size: 40px;
     font-style: italic;
     color: white;
