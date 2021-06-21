@@ -118,6 +118,8 @@ color: #F15A29;
 }
 .fastfood {
     display: flex;
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
 .images {
     margin-left: 250px;
@@ -130,6 +132,8 @@ color: #F15A29;
     display: flex;
     width: 70%;
     margin-left: 17%;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 .words {
     padding-right: 80px;
@@ -145,7 +149,7 @@ box-shadow: 3px 3px 3px 3px grey;
     padding-top: 30px;
     padding-bottom: 30px;
     background-image: url("assets/background/foodsBg.jpg");
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 #colorf {
     color: grey;
@@ -190,11 +194,17 @@ box-shadow: 3px 3px 3px 3px grey;
     text-align: center;
     padding-top: 40px;
     padding-bottom: 20px;
+    color: white;
     }
 .footer {
     padding-top: 50px;
     background-color: #F15A29;
     text-align: center;
+    color: white;
+}
+.footerlogo {
+    flex: auto;
+    flex-direction:
 }
 #color {
     color: #F15A29;
@@ -211,6 +221,7 @@ box-shadow: 3px 3px 3px 3px grey;
     display: flex;
     width: 100%;
     margin-left: 45%;
+    padding-right: 30px;
 }
 .twitter {
     padding-top: 10px;
